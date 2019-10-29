@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  mvc:
+    view:
+      prefix: classpath:static/jsp
+      suffix: .jsp
+  resources:
+    static-locations: classpath:static
+#    static-path-pattern: classpath:static/
